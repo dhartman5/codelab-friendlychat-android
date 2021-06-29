@@ -18,6 +18,7 @@ Once that is installed you can run:
 $ firebase emulators:start --project=codelab-friendlychat-android
 
 This starts the emulator and you visit http://localhost:4000 to see the dashboard. 
+Within the dashboard, you need to manually drag and drop the initial_messages.json file from your local copy of the codelab repository into the data viewer, the local copy should be called "demo-friendlychat-android".
 
 This is where you can see the authentication and real-time database where you can manually add messages and also see other user's messages.
 Everything updated in the app talks to the database and vice versa. 
